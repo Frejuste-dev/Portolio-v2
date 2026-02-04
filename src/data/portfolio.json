@@ -2,7 +2,7 @@
   "profile": {
     "firstName": "Prince Frejuste",
     "lastName": "Kei",
-    "jobTitle": "Informaticien - Développeur Backend",
+    "jobTitle": "Développeur Full Stack",
     "tagline": "Passionné par l'automatisation et l'innovation, je transforme les processus complexes en solutions efficaces et performantes.",
     "email": "frejuste.dev56@gmail.com",
     "phone": [
@@ -111,20 +111,20 @@
   "projects": [
     {
       "id": 101,
-      "title": "Moulinette Inventaire",
+      "title": "Moulinette SAGE X3",
       "description": "Application d'automatisation complète des traitements d'inventaire pour Sage X3. Traitement de fichiers CSV, calcul automatique des écarts de stock, répartition intelligente FIFO/LIFO, et API RESTful pour intégration. Actuellement en production chez SIBM avec une version 2 en réflexion.",
       "imageUrl": "/images/moulinette_inventaire.png",
       "techStack": [
         "Python",
-        "Flask",
+        "FastApi",
         "Pandas",
         "NumPy",
         "OpenPyXL",
-        "REST API",
+        "MySQL",
         "CORS",
-        "Logging"
+        "React.Js"
       ],
-      "githubUrl": null,
+      "githubUrl": https://github.com/Frejuste-dev/Moulinette-SAGE-X3,
       "liveUrl": null,
       "status": "En production",
       "highlights": [
@@ -139,11 +139,11 @@
       "description": "Application pour optimiser la gestion des files d'attente au niveau du parc expo de SIBM, améliorant l'expérience client et l'efficacité opérationnelle.",
       "imageUrl": "/images/queue_management.png",
       "techStack": [
-        "Python",
-        "Flask",
+        "Express.Js",
+        "NodeJs",
         "JavaScript",
-        "HTML5",
-        "CSS3"
+        "TypeScript",
+        "ReactJs"
       ],
       "githubUrl": null,
       "liveUrl": null,
@@ -177,22 +177,6 @@
         "Scikit-learn"
       ],
       "githubUrl": "https://github.com/Frejuste-dev/KUMAJALA-AI",
-      "liveUrl": null,
-      "status": "Open source"
-    },
-    {
-      "id": 105,
-      "title": "Quantys-all",
-      "description": "Projet fullstack complet démontrant mes compétences en développement moderne avec une architecture robuste.",
-      "imageUrl": "/images/quantys.png",
-      "techStack": [
-        "ReactJS",
-        "NodeJS",
-        "Express",
-        "MongoDB",
-        "TailwindCSS"
-      ],
-      "githubUrl": "https://github.com/Frejuste-dev/Quantys-all",
       "liveUrl": null,
       "status": "Open source"
     },
@@ -291,21 +275,6 @@
       "status": "Open source"
     },
     {
-      "id": 111,
-      "title": "FastFix",
-      "description": "Application backend permettant la gestion d'interventions techniques, de tickets et de techniciens. Conçue pour des PME de maintenance.",
-      "imageUrl": "/images/fastfix.svg",
-      "techStack": [
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "JWT"
-      ],
-      "githubUrl": "https://github.com/Frejuste-dev/fastfix",
-      "liveUrl": null,
-      "status": "En développement"
-    },
-    {
       "id": 112,
       "title": "Portfolio FrejusDev",
       "description": "Portfolio personnel moderne développé pour présenter mes projets, compétences et expériences. Design responsive et optimisé.",
@@ -319,39 +288,6 @@
       "githubUrl": "https://github.com/Frejuste-dev/frejusdev-portfolio",
       "liveUrl": null,
       "status": "Open source"
-    },
-    {
-      "id": 113,
-      "title": "Quantys UI",
-      "description": "Version frontend du projet Quantys. Interface utilisateur moderne construite pour offrir une navigation fluide et une expérience propre.",
-      "imageUrl": "/images/quantys_ui.svg",
-      "techStack": [
-        "Vue.js",
-        "TailwindCSS",
-        "JavaScript"
-      ],
-      "githubUrl": "https://github.com/Frejuste-dev/quantys",
-      "liveUrl": null,
-      "status": "Open source"
-    },
-    {
-      "id": 114,
-      "title": "Elephina PHP",
-      "description": "Mini-framework PHP minimaliste créé pour accélérer le développement d'applications web. Léger, rapide, et conçu pour l’apprentissage.",
-      "imageUrl": "/images/elephina.svg",
-      "techStack": [
-        "PHP",
-        "MySQL",
-        "HTML5"
-      ],
-      "githubUrl": "https://github.com/Frejuste26/elephina-php",
-      "liveUrl": null,
-      "status": "Open source",
-      "highlights": [
-        "Structure MVC légère",
-        "Routeur intégré",
-        "Extensible et facile à comprendre"
-      ]
     },
     {
       "id": 115,
